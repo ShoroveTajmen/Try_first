@@ -1,0 +1,12 @@
+For showing calander---->  cal
+For showing date and time----> date
+Test current location----> pwd (print working directory)
+Move one place to another---> cd (file name/)
+If we want to write a text----> echo "hello"
+If we want to make directory---> mkdir (directory name) OR
+Created directory with massage----> mkdir -v (directory name) OR
+For creating multiple directory at a time---> mkdir (directory name) (directory name)
+"ls" ----> ls to display the contents of current directory
+"less" ----> using less to view files,,,,,,less is capable of displaying text in other languages,,,,less can also open more than one file at a time when less to view multiple files the command {:n} is used to navigate to the next file,,,and command {:P} is used to navigate to the previous file 
+"ls" ---> using ls to list the contents of a non-current directory using a relative path
+"ls .." ---> we call that dot dot refers to the parent of the current working directory
