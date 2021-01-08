@@ -10,3 +10,19 @@ For creating multiple directory at a time---> mkdir (directory name) (directory 
 "less" ----> using less to view files,,,,,,less is capable of displaying text in other languages,,,,less can also open more than one file at a time when less to view multiple files the command {:n} is used to navigate to the next file,,,and command {:P} is used to navigate to the previous file 
 "ls" ---> using ls to list the contents of a non-current directory using a relative path
 "ls .." ---> we call that dot dot refers to the parent of the current working directory
+
+"Identifiying and understanding symbolic links"
+
+----> a symbolic link is a term for any file that contains a reference to another file or directory in the form of an absolute or relative path
+
+COMMAND:-----
+1. ls -l /usr/bin/emacs/  or you can use another fie name
+2. file /usr/bin/emacs
+
+
+"Using ls to view hidden file"
+"normally ls ignore any files whose name begins with dot"
+ "for showing hidden file"
+ COMMAND--->
+ 1. ls -a
+
