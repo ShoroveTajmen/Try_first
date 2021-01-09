@@ -11,18 +11,86 @@ For creating multiple directory at a time---> mkdir (directory name) (directory 
 "ls" ---> using ls to list the contents of a non-current directory using a relative path
 "ls .." ---> we call that dot dot refers to the parent of the current working directory
 
-"Identifiying and understanding symbolic links"
 
+"Identifiying and understanding symbolic links"
 ----> a symbolic link is a term for any file that contains a reference to another file or directory in the form of an absolute or relative path
 
 COMMAND:-----
-1. ls -l /usr/bin/emacs/  or you can use another fie name
-2. file /usr/bin/emacs
+13. ls -l /usr/bin/emacs/  or you can use another fie name
+14. file /usr/bin/emacs
 
 
 "Using ls to view hidden file"
 "normally ls ignore any files whose name begins with dot"
  "for showing hidden file"
  COMMAND--->
- 1. ls -a
+ 15. ls -a
 
+
+ "using ls with additional options"
+"displaying current working directory using ls"
+"the -l flag uses for a long listing format"
+COMMAND--->
+
+16. ls -l
+
+"for each file this information includes the file type,file permissions,the owner,the file size,the modification date and the file name"
+COMMAND--->
+
+17. ls -l Desktop/
+
+
+"using this command ls -l aren't particularly readable for file size"
+"by using the -h flag ls will more human readable format"
+COMMAND---->
+
+18. ls -lh Desktop/
+
+"or we can use"
+COMMAND---->
+
+19. ls -l -h Desktop/
+
+" this two commands are equivalent"
+
+
+
+
+
+"to deleting a file or directories using rm command"
+COMMAND--->
+
+20. rm file_name   (by default rm doesn't dlt directories)
+
+
+"using rm -i flag you get a confirmation before deleting a file"
+COMMAND--->
+
+21. rm -i file_name.md
+
+"rm -v to use for confirm msg which file was deleted"
+COMMAND--->
+
+22. rm -v file_name.md
+
+
+"confirming once before removing more than three files, or when removing recursively"
+COMMAND--->
+
+23. rm -r -I -v directory_name
+
+
+
+"using cd to navigate to a directory using a relative path"
+
+COMMAND--->
+24. cd .--->  dot reffers to current working directory
+25. cd ..---> dot dot refers to parent of the current working directory
+26. cd ../.. ---> dot dot slash dot dot refers to the parent of the parent current working directory
+
+
+"for creating a file"
+
+COMMAND--->
+
+27. touch file_name.txt
