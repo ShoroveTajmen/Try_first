@@ -94,3 +94,32 @@ COMMAND--->
 COMMAND--->
 
 27. touch file_name.txt
+
+
+"using mv to move files"
+COMMAND--->
+
+28. mv file_name destination name(directory_name)
+
+
+"using ln to create a symbolic link"
+
+COMMAND--->
+
+29. ln -s test1(directory_name)/abc(file_name) cccc(symbolic link)
+
+"when we Created a symbolic link to taht file with the same name "
+
+COMMAND-->
+
+30. ln -s test1(directory_name)/abc(file_name)
+
+
+
+
+"determine file type"
+COMMAND---->
+
+31. file (file_name)/
+
+
