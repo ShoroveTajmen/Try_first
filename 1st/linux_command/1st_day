@@ -123,3 +123,19 @@ COMMAND---->
 31. file (file_name)/
 
 
+"using cp to copy file in current working directory"
+
+COMMAND--->
+
+32. cp directory_name(jei directory theke file choose krbo)/file_name  file_name(j file amra copy krte chai)
+33. cp file_name  directory_name(jekhane amra copy kre rakhte chai)
+
+
+
+"using cp to copy a single directory"
+
+COMMAND--->
+34. cp -r directory_name(jekhan theke copy krte chai)  directory_name(j directory_name ta copy krbo)
+
+
+
