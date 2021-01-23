@@ -139,3 +139,69 @@ COMMAND--->
 
 
 
+
+
+
+
+FILE PERMISSIONS:
+------------------------
+
+->  permissions for a file or directory maybe restricted by 3 types
+
+      1. r - read
+      2. w - write
+      3. x - execute = running a program
+
+->  each permissions (rwx) can be controlled three levels
+
+     1. u - user = yourself
+     2. g - group = can be people in the same project
+     3. o - other = everyone on the system
+
+
+->  file or directory permissions can be displayed by run using this command
+COMMAND--->
+35. ls -l
+
+
+->   command to change permissions:
+COMMAND---->
+36. chmod
+
+-> for restricted write option in group section:
+COMMAND-->
+37. chmod g-w (file_name)
+
+
+-> restricted all read option in this file:
+COMMAND-->
+38. chmod a-r (file_name)
+
+
+-> restricted write option from user:
+COMMAND-->
+39. chmod u-w (file_name)
+
+
+-> to showing what's changed in this file:
+COMMAND-->
+40. ls -l (file_name)
+
+
+
+-> when we restricted all permissions at this moment we can't remove this file
+so,, if we return our permissions then we uses this command:
+
+COMMAND-->
+41. chmod u+rw (file_name)
+42. chmod g+rw (file_name)
+43. chmod o+r (files)
+
+
+-> if we remove all x(execution) option from a diretory then we can't 
+enter this directory
+
+
+
+
+
