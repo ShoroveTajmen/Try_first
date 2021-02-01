@@ -251,5 +251,33 @@ OR
 
 
 
+"tee command"
+---------------
+
+the tee command is used to store and view (both at the same tiem) the output of any command.
+COMMAND--->
+
+52. echo "hi i am shorove" | tee (file_name)
+
+echo "hi i am shorove" | tee jerry 
+COMMAND--->
+
+53. echo "i'm a software engineer" | tee -a  (file_name)
+
+"if we want to see how many character in this file"
+
+54. wc -c (file_name)
+
+"if we create a file at the same time want to view this file"
+
+55. ls -l | tee file1
+
+
+
+
+
+
+
+
 
 
